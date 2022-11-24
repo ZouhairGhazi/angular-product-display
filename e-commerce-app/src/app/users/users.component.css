@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.page {
+  display: grid;
+  grid-template-rows: 2fr auto;
+  grid-template-areas: "main" "footer";
+  min-height: 100vh;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+.main {
+  display: grid;
+  place-items: center;
+  padding: 1em;
+}
+
+.profile-card {
+  color: #2d3248;
+  background-color: white;
+  display: grid;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 0.8em;
+  box-shadow: 0 0.7em 0.7em rgba(0, 0, 0, 0.15);
+  max-width: 18.2em;
+  margin-bottom: 100px;
+}
+.profile-card__img-box-pattern {
+  width: 100%;
+}
+.profile-card__img-box-pattern > img {
+  height: 7.78em;
+}
+.profile-card__person-info {
+  border-bottom: 1px solid #e8e8e8;
+}
+.profile-card__img-box-avatar {
+  transform: translateY(-50%);
+  margin-inline: auto;
+  overflow: hidden;
+  width: 100%;
+  aspect-ratio: 1;
+  max-width: 5.33em;
+  border: 5px solid white;
+  border-radius: 50vw;
+}
+.profile-card__title {
+  color: #6a6f81;
+  transform: translateY(-56%);
+  text-align: center;
+}
+.profile-card__name {
+  color: #2d3248;
+  font-weight: 700;
+}
+.profile-card__age {
+  margin-left: 0.6em;
+}
+.profile-card__city {
+  display: block;
+  margin-top: 0.75em;
+  font-size: 0.77em;
+}
+
+.profile-stats {
+  --profile-info_color: #2d3248;
+  --profile-info_padding: 1.4em;
+  color: #2d3248;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-info {
+  color: var(--profile-info_color, #2d3248);
+  background-color: var(--profile-info_bd-cr, white);
+  display: flex;
+  gap: 0.4em;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: var(--profile-info_padding, 1em 1.4em);
+}
+.profile-info__value {
+  font-weight: 700;
+  font-size: 1em;
+}
+.profile-info__title {
+  color: #6a6f81;
+  font-size: 0.6em;
+}
+
+.attribution {
+  color: #2d3248;
+  background-color: white;
+  display: flex;
+  gap: 0.4em;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.4em;
+  font-size: 0.9rem;
+}

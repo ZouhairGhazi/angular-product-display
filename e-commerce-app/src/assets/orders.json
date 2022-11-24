@@ -1,0 +1,29 @@
+[  
+  {  
+    "id": 1,  
+    "name": "Jack",
+    "order": "Nike Tshirt",  
+    "date": "12-04-2022",  
+    "price": "24.90€",
+    "status": "Completed",
+    "payment": "VISA"  
+  },  
+  {  
+    "id": "2",  
+    "name": "Alexandre",
+    "order": "Adidas Hat",  
+    "date": "22-05-2022",  
+    "price": "19.99€",
+    "status": "Cancelled",
+    "payment": "N/A"  
+  },
+  {  
+    "id": "3",  
+    "name": "David",
+    "order": "Denim Jacket",  
+    "date": "16-06-2022",  
+    "price": "49.95€",
+    "status": "Shipped",
+    "payment": "MasterCard"  
+  }
+]
