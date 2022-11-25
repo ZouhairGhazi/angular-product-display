@@ -1,4 +1,4 @@
-# Angular based front-end application
+# Front-end Angular based application
 
 A web application consuming JSON files in the assets folder, to display product, user and order information in various IHM styles.
 
