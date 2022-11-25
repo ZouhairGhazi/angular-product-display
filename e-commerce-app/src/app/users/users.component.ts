@@ -18,7 +18,6 @@ export class UsersComponent implements OnInit {
 
     this.httpClient.get("assets/users.json").subscribe(data =>{
       this.users = data;
-      console.log(this.bro);
     })
   }
 

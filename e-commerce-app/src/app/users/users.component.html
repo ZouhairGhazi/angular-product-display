@@ -1,30 +1,31 @@
-
-<body class="page">
-  <main class="main page__main">
-    <div>
-      <ul>
-        <li *ngFor="let user of users">
-          <div class="profile-card">
-            <div class="profile-card__img-box-pattern"><img src="https://i.postimg.cc/rmk4y2yv/bg-pattern-card.png" alt=""/></div>
-            <div class="profile-card__person-info">
-              <div class="profile-card__img-box-avatar"><img src="https://i.postimg.cc/mrMMGg4Y/image-victor.jpg" alt=""/></div>
-              <p class="profile-card__title"><strong class="profile-card__name">{{user['name']}}</strong><span class="profile-card__age">26</span><span class="profile-card__city">London</span></p>
-            </div>
-            <div class="profile-stats">
-              <p class="profile-info"><span class="profile-info__value">80K</span><span class="profile-info__title">Followers</span></p>
-              <p class="profile-info"><span class="profile-info__value">803K</span><span class="profile-info__title">Likes</span></p>
-              <p class="profile-info"><span class="profile-info__value">1.4K</span><span class="profile-info__title">Photos</span></p>
-            </div>
+<div class="container-xl">
+  <div class="table-responsive">
+      <div class="table-wrapper">
+          <div class="table-title">
+              <div class="row">
+                  <div class="col-sm-8"><h2>Users <b>List</b></h2></div>
+              </div>
           </div>
-        </li>
-      </ul>
-    </div>
-  </main>
-  <footer class="page__footer">
-    <div class="attribution">
-      <p class="attribution__note">
-        Coded by<a class="attribution__link" href="https://github.com/MatMaka" target="_blank">MatMaka</a></p>
-    </div>
-  </footer>
-</body>
-
+          <table class="table table-striped table-hover table-bordered">
+              <thead>
+                  <tr>
+                      <th class="text-center">Name</th>
+                      <th class="text-center">Gender</th>
+                      <th class="text-center">Age</th>
+                      <th class="text-center">More Details</th>
+                  </tr>
+              </thead>
+              <tbody class="text-center" *ngFor="let user of users">
+                  <tr>
+                      <td>{{user['name']}}</td>
+                      <td>{{user['gender']}}</td>
+                      <td>{{user['age']}}</td>
+                      <td>
+                        <a [routerLink]="['/user-detail', user.id]" class="view" title="View" data-toggle="tooltip"><i class="material-icons">&#xE417;</i></a>
+                      </td>
+                  </tr>       
+              </tbody>
+          </table>
+      </div>
+  </div>  
+</div>

@@ -1,32 +1,57 @@
 [  
   {  
     "id": 1,  
-    "name": "Jack",  
+    "name": "Jack Black",  
+    "age": "42",
     "email": "jack@gmail.com",  
-    "gender": "male"  
+    "gender": "Male",
+    "address": "1355 Market St, Suite 900", 
+    "city": "San Francisco, CA 94103",
+    "phone": "(+33) 456-7890",
+    "pic": "assets/pic1.jpg"
   },  
   {  
     "id": 2,  
-    "name": "Peter",  
+    "name": "Peter", 
+    "age": "32", 
     "email": "peter@gmail.com",  
-    "gender": "male"  
+    "gender": "Male",
+    "address": "1355 Market St, Suite 900", 
+    "city": "San Francisco, CA 94103",
+    "phone": "(+33) 456-7890",
+    "pic": "assets/pic2.jpg"
   },  
   {  
     "id": 3,  
     "name": "Mary",  
+    "age": "39",
     "email": "mary@gmail.com",  
-    "gender": "female"  
+    "gender": "Female",
+    "address": "1355 Market St, Suite 900", 
+    "city": "San Francisco, CA 94103",
+    "phone": "(+33) 456-7890",
+    "pic": "assets/pic3.jpg"
   },  
   {  
     "id": 4,  
     "name": "Smith",  
+    "age": "54",
     "email": "smith@gmail.com",  
-    "gender": "male"  
+    "gender": "Male",
+    "address": "1355 Market St, Suite 900", 
+    "city": "San Francisco, CA 94103",
+    "phone": "(+33) 456-7890",
+    "pic": "assets/pic4.jpg"
   },  
   {  
     "id": 5,  
     "name": "John",  
+    "age": "47",
     "email": "john@gmail.com",  
-    "gender": "male"  
+    "gender": "Male",
+    "address": "1355 Market St, Suite 900", 
+    "city": "San Francisco, CA 94103",
+    "phone": "(+33) 456-7890",
+    "pic": "assets/pic5.jpg"
   }  
 ]

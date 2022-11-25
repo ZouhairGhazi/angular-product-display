@@ -1,39 +1,17 @@
-<div class="container-xl">
-  <div class="table-responsive">
-      <div class="table-wrapper">
-          <div class="table-title">
-              <div class="row">
-                  <div class="col-sm-8"><h2>Order <b>Details</b></h2></div>
-              </div>
-          </div>
-          <table class="table table-striped table-hover table-bordered">
-              <thead>
-                  <tr>
-                      <th>Order ID</th>
-                      <th>Customer</th>
-                      <th>Order</th>
-                      <th>Delivery Date</th>
-                      <th>Delivery Pricing</th>
-                      <th>Delivery Status</th>
-                      <th>Payment Method</th>
-                      <th>Actions</th>
-                  </tr>
-              </thead>
-              <tbody>
-                  <tr>
-                      <td>1</td>
-                      <td>Thomas Hardy</td>
-                      <td>89 Chiaroscuro Rd.</td>
-                      <td>Portland</td>
-                      <td>97219</td>
-                      <td>USA</td>
-                      <td>VISA Card</td>
-                      <td class="text-center" >
-                          <a href="#" class="view" title="View" data-toggle="tooltip"><i class="material-icons">&#xE417;</i></a>
-                      </td>
-                  </tr>       
-              </tbody>
-          </table>
-      </div>
-  </div>  
-</div>
+<div class="contact-us">
+    <form >
+      <label for="customerName">NAME <em>&#x2a;</em></label><input id="customerName" name="customerName" required="" type="text" />
+      <label for="customerEmail">EMAIL <em>&#x2a;</em></label><input id="customerEmail" name="customerEmail" required="" type="email" />
+      <label for="customerPhone">PHONE</label><input id="customerPhone" name="customerPhone" pattern="[0-9]{10}" type="tel" />
+      <label for="orderNumber">ORDER NUMBER</label><input id="orderNumber" name="orderNumber" type="text" /><label for="customerNote">YOUR MESSAGE <em>&#x2a;</em></label>
+      <textarea #box id="customerNote" name="customerNote" required="" rows="4"></textarea>
+      <h3>
+        Please provide all the information about your issue you can.
+      </h3>
+    </form>
+    <button id="customerOrder" (click)="onSubmit(box.value)">SUBMIT</button>
+
+  </div>
+  
+ 
+  

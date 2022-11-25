@@ -1,0 +1,29 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div id="container">	
+	
+	<div class="product-details">
+		<h1>{{product['label']}}</h1>
+		<br><br>
+		<p class="information">{{product['description']}}</p>		
+	</div>
+	
+	<div class="product-image">
+		
+		<img src="{{product['pic']}}" alt="">
+		
+
+		<div class="info">
+			<h2> Description</h2>
+			<ul>
+				<li><strong>Color : </strong>{{product['color']}}</li>
+				<li><strong>Size : </strong>{{product['size']}}</li>
+				<li><strong>Price : </strong>{{product['price']}}€</li>
+				<li><strong>In stock : </strong>{{product['inStock']}}</li>
+				<li><strong>Discounted : </strong>{{product['discount']}}</li>
+			</ul>
+		</div>
+	</div>
+
+</div>
+
+

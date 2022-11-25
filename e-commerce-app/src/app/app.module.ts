@@ -10,9 +10,12 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { UsersComponent } from './users/users.component';
 import { OrdersComponent } from './orders/orders.component';
 import { ProductsComponent } from './products/products.component';
-import { ContactComponent } from './contact/contact.component';
+import { ContactComponent, DialogContentExampleDialog } from './contact/contact.component';
 import { HttpClientModule } from '@angular/common/http';
 import { OrderDetailComponent } from './order-detail/order-detail.component';
+import { UserDetailComponent } from './user-detail/user-detail.component';
+import { ProductDetailComponent } from './product-detail/product-detail.component';
+import { MatDialogModule } from '@angular/material/dialog';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { OrderDetailComponent } from './order-detail/order-detail.component';
     OrdersComponent,
     ProductsComponent,
     ContactComponent,
-    OrderDetailComponent
+    OrderDetailComponent,
+    UserDetailComponent,
+    ProductDetailComponent,
+    DialogContentExampleDialog
   ],
   imports: [
     BrowserModule,
@@ -31,7 +37,8 @@ import { OrderDetailComponent } from './order-detail/order-detail.component';
     MatToolbarModule,
     MatButtonModule,
     MatIconModule,
-    HttpClientModule
+    HttpClientModule,
+    MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]

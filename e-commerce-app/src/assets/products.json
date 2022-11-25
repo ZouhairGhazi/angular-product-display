@@ -1,0 +1,35 @@
+[  
+  {  
+    "id": 1,  
+    "label": "Nike Tshirt",
+    "description": "The unisex heavy cotton tee is the basic staple of any wardrobe. It is the foundation upon which casual fashion grows. All it needs is a personalized design to elevate things to profitability. The specially spun fibers provide a smooth surface for premium printing vividity and sharpness.", 
+    "color": "Black",
+    "size": "M",
+    "price": "9.90",
+    "inStock": "Yes",
+    "discount": "Yes",
+    "pic": "assets/pic6.jpg"
+  },  
+  {  
+    "id": 2,  
+    "label": "Adidas Sneakers",
+    "description": "The right pair of shoes will make you feel amazing, and this shoe-sandals combo will pair with all your casual summer looks. These white open sandals shoes give you all the comfort of sandals but with the cushioning support of a running shoe. The dual straps adjust to keep your feet secure, and the velcro fasteners make this shoe a breeze to put on and take off.",
+    "color": "Blue",
+    "size": "42",
+    "price": "29.90",
+    "inStock": "Yes",
+    "discount": "No",
+    "pic": "assets/pic7.jpg"
+  },  
+  {  
+    "id": 3,  
+    "label": "Puma Bag",
+    "description": "This durable sports bag from PUMA in medium size is designed to carry your gear to and fro and back again.",
+    "color": "Red",
+    "size": "S",
+    "price": "19.90",
+    "inStock": "No",
+    "discount": "No",
+    "pic": "assets/pic8.jpg"
+  }
+]

@@ -1,28 +1,43 @@
 [  
   {  
     "id": 1,  
-    "name": "Jack",
+    "name": "Jack Doe",
+    "address": "1355 Market St, Suite 900",
+    "city": "San Francisco, CA 94103",
+    "phone": "(+33) 456-7890",
     "order": "Nike Tshirt",  
     "date": "12-04-2022",  
-    "price": "24.90€",
+    "subtotal": "79.99",
+    "shipping-cost": "20.00",
+    "discount": "10.00",
     "status": "Completed",
-    "payment": "VISA"  
+    "payment": "VISA"
   },  
   {  
     "id": "2",  
-    "name": "Alexandre",
+    "name": "Alexandre Great",
+    "address": "1355 Market St, Suite 900",
+    "city": "San Francisco, CA 94103",
+    "phone": "(+33) 456-7890",
     "order": "Adidas Hat",  
     "date": "22-05-2022",  
-    "price": "19.99€",
+    "subtotal": "19.99",
+    "shipping-cost": "10.00",
+    "discount": "10.00",
     "status": "Cancelled",
-    "payment": "N/A"  
+    "payment": "Paypal"  
   },
   {  
     "id": "3",  
-    "name": "David",
+    "name": "David Fincher",
+    "address": "1355 Market St, Suite 900",
+    "city": "San Francisco, CA 94103",
+    "phone": "(+33) 456-7890",
     "order": "Denim Jacket",  
     "date": "16-06-2022",  
-    "price": "49.95€",
+    "subtotal": "49.95",
+    "shipping-cost": "10.00",
+    "discount": "10.00",
     "status": "Shipped",
     "payment": "MasterCard"  
   }
