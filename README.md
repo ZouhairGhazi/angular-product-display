@@ -1,10 +1,12 @@
-# angular-product-display
-An angular based application
-
 # Angular based front-end application
 
 A web application consuming JSON files in the assets folder, to display product, user and order information in various IHM styles.
 
+
+**List of contributors :**
+
+    - GHAZI Zouhair
+    - SAJED Soufiane
 
 ### Guide to run the project :
 >
